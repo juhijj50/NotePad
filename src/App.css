@@ -1,0 +1,16 @@
+/* src/App.css */
+.highlight {
+    background-color: yellow; /* or your preferred color */
+    cursor: pointer;
+  }
+  
+  .tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 10;
+    pointer-events: none; /* Prevent tooltip from interfering with mouse events */
+  }
+  
